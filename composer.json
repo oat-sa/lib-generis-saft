@@ -1,0 +1,23 @@
+{
+    "name": "oat-sa/lib-generis-saft",
+    "description": "SAFT Ontology Wrapper",
+    "type": "library",
+    "license": "GPL-2.0-only",
+    "homepage": "http://www.taotesting.com",
+    "authors": [
+        {
+            "name": "Open Assessment Technologies S.A.",
+            "homepage": "http://www.taotesting.com"
+        },{
+            "name": "Joel Bout",
+            "email": "joel@taotesting.com"
+        }
+    ],
+    "require": {
+        "semsol/arc2": "^2.5",
+        "saft/saft": "^1.1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
