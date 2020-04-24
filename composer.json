@@ -19,5 +19,15 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "oat\\GenerisSaft\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "oat\\generisSaftTest\\": "test"
+        }
     }
 }
